@@ -165,3 +165,37 @@ body{
     padding: 6px 0;
 }
 
+
+
+@media screen and (max-width: 1199px) {
+    .game {
+        width: 70vw;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .game {
+        width: 80vw;
+    }
+}
+@media screen and (max-width: 800px) {
+    .game {
+        width: 85vw;
+    }
+}
+@media screen and (max-width: 600px) {
+    .game {
+        width: 90vw;
+    }
+    .tic-tac-toe {
+        width: 240px !important;
+        height: 240px !important;
+    }
+    .tic-tac-toe td {
+        width: 80px;
+        height: 80px;
+    }
+    .tic-tac-toe td .item{
+        width: 80px;
+        height: 80px;
+    }
+}
