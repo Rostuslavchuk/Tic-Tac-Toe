@@ -85,7 +85,7 @@ body{
 
 
 /* move info */
-.score-board .score-board__footer {
+.score-board__footer {
     width: 100%;
     padding: 4px 0;
     display: flex;
@@ -106,7 +106,7 @@ body{
 
 
 /* game board */
-.game .board {
+.board {
     width: 100%;
     background-color: var(--game-board-back);
     position: relative;
@@ -155,7 +155,7 @@ body{
     align-items: center;
     justify-content: center;
 }
-.reset .reset__restart{
+.reset__restart{
     width: 100%;
     color: var(--reset-text-color);
     background-color: var(--game-back);
