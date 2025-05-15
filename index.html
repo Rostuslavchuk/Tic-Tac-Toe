@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <div class="game">
+        <div class="score-board">
+            <div class="score-board__header">
+                <div class="cross move" id="cross">
+                    <div class="cross__icon">
+                        <img src="./assets/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="cross">
+                    </div>
+                    <div class="cross__count" id="cross__count">-</div>
+                </div>
+                <div class="nought" id="nought">
+                    <div class="nought__icon">
+                        <img src="./assets/radio_button_unchecked_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="nought">
+                    </div>
+                    <div class="nought__count" id="nought__count">-</div>
+                </div>
+            </div>
+        
+            <div class="score-board__footer">
+                <span class="need_to_move_info">Moves</span>
+                <span class="need_to_move_item" id="need_to_move_item">
+                    <img src="./assets/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="cross">
+                </span>
+            </div>
+
+        </div>
+
+        <div class="board">
+                <table class="tic-tac-toe" id="tic-tac-toe">
+                    <tr>
+                        <td><div class="item"></div></td>
+                        <td><div class="item"></div></td>
+                        <td><div class="item"></div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="item"></div></td>
+                        <td><div class="item"></div></td>
+                        <td><div class="item"></div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="item"></div></td>
+                        <td><div class="item"></div></td>
+                        <td><div class="item"></div></td>
+                    </tr>
+                </table>  
+        </div>
+        <div class="reset">
+            <button type="button" id="reset__restart" class="reset__restart" >Restart</button>
+        </div>
+    </div>
+
+
+
+    <script src="./script.js" defer ></script>
+</body>
+</html>
